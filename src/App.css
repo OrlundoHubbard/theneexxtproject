@@ -1,0 +1,77 @@
+.App {
+  height: 100vh;
+  overflow: scroll;
+  text-align: center;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  margin: 0;
+  font-family: inter;
+  font-size: 100px;
+  font-weight: 800;
+}
+
+.sub-text {
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 400;
+  color: hsl(0, 0%, 40%);
+}
+
+.cta-button {
+  width: 250px;
+  height: 45px;
+  font-family: inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(212, 100%, 47%);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 4px 10px dodgerblue;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: rgb(33, 130, 228);
+  transition-timing-function: ease-out;
+  transition: 0.25s;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+.neexxt-gif {
+  margin-left: 463px;
+  margin-top: 30px;
+  margin-bottom: 40px; 
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+
+  .neexxt-gif {
+    width: 300px;
+    margin-left: 40px;
+  }
+
+  .gradient-text {
+    font-size: 70px;
+  }
+}
+
+
+
+
